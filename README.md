@@ -1,5 +1,5 @@
 # Plataforma-da-Dio-React
-Clone da Plataforma da dio com React
+Clone da Plataforma da dio com React + Typescript
 
 <h2>Bibliotecas utilizadas</h2>
 <li>ReactJS
