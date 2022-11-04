@@ -20,3 +20,5 @@ Clone da Plataforma da dio com React
   <h3>Iniciar app <h3>
     
   `$ npm run dev`
+  
+  ![app screenshot](https://i.ibb.co/z7pSKj1/Anota-o-2022-11-04-011434.png)
