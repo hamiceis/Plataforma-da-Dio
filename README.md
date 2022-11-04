@@ -12,3 +12,11 @@ Clone da Plataforma da dio com React
   <h3>Instalando pacotes </h3>
 
 `$ npm install` 
+  
+ <h3> Iniciar server <h3>
+   
+ `$ npm run server`
+   
+  <h3>Iniciar app <h3>
+    
+  `$ npm run dev`
