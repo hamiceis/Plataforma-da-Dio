@@ -5,3 +5,10 @@ Clone da Plataforma da dio com React
 <li>ReactJS
 <li>Styled-components
 <li>React-router-dom
+<li>json-server
+<li>axios
+
+
+#Instalando pacotes
+
+$npm install 
