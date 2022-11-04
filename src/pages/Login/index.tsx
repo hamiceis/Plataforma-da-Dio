@@ -22,6 +22,7 @@ import {
   ForgotPass,
   CreateAccount,
 } from "./styled";
+import { IFormData } from "./types";
 
 const schema = yup
   .object({
@@ -43,7 +44,7 @@ export function Login() {
     control,
     handleSubmit,
     formState: { errors },
-  } = useForm({
+  } = useForm<IFormData>({
     resolver: yupResolver(schema),
     mode: "onChange",
     defaultValues: {
@@ -52,10 +53,10 @@ export function Login() {
     },
   });
 
-  const onSubmit = async (formData) => {
+  const onSubmit = async (formData: IFormData)=> {
     try {
       const { data } = await api.get(`users`);
-      const user = data.find((user) => user.email === formData.email);
+      const user = data.find((user: any) => user.email === formData.email);
 
       if (!user) {
         alert("Usuário e senha não encontrados");

@@ -2,13 +2,14 @@ import { Column, Container, TitleHighLight, Title } from './styled'
 import { Header } from '../../components/Header'
 import { Card } from '../../components/Card'
 import { UserInfo } from '../../components/UserInfo'
+ 
 
 export function Feed() {
   return (
     <>
       <Header authentication={true} />
       <Container>
-        <Column flex={3}>
+        <Column<any> flex={3}>
           <Title>Feed</Title>
           <Card />
           <Card />

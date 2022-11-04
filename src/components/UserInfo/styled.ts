@@ -1,4 +1,6 @@
+
 import styled from "styled-components";
+import { IProps } from "./types";
 
 export const Container = styled.div`
   display: flex;
@@ -20,7 +22,7 @@ export const NameText = styled.div`
   color: #FFFF;
 `
 
-export const Progress = styled.div`
+export const Progress = styled.div<IProps>`
   width: 18rem;
   height: .6rem;
   background-color: #FFFF;
@@ -32,7 +34,7 @@ export const Progress = styled.div`
     position: absolute;
     left: 0;
     top: 0;
-    width: ${function({percentual}){return percentual}}%;
+    width: ${function({percentual}: any){return percentual}}%;
     height: .6rem;
     border-radius: .3rem;
     background-color: #23DD7A;

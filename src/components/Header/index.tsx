@@ -11,8 +11,9 @@ import {
 } from "./styled";
 import { Button } from "../Button";
 import Logo from "../../assets/logo-dio.png";
+import { IHeader } from "./types";
 
-export function Header({ authentication }) {
+export function Header({ authentication }: IHeader) {
   return (
     <Wrapper>
       <Container>

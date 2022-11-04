@@ -52,7 +52,7 @@ export function Register() {
     },
   });
 
-  const onSubmit = (data) => {
+  const onSubmit = (data: {}) => {
     navigate('/feed')
   }
 
