@@ -15,6 +15,7 @@ export const Wrapper = styled.div`
   max-width: 30rem;
 `
 
+
 export const Column = styled.div`
   display: flex;
   flex-grow: 1;

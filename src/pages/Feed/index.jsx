@@ -1,7 +1,8 @@
-import { Column, Container, TitleHighLight, Title} from "./styled";
-import { Header } from "../../components/Header";
-import { Card } from "../../components/Card";
-import { UserInfo } from "../../components/UserInfo";
+import { Column, Container, TitleHighLight, Title } from './styled'
+import { Header } from '../../components/Header'
+import { Card } from '../../components/Card'
+import { UserInfo } from '../../components/UserInfo'
+
 export function Feed() {
   return (
     <>
@@ -51,5 +52,5 @@ export function Feed() {
         </Column>
       </Container>
     </>
-  );
+  )
 }

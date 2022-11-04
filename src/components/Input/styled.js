@@ -33,3 +33,9 @@ export const InputText = styled.input`
   }
 
 `
+
+export const ErrorText = styled.p`
+  color: #FF0000;
+  font-size:  1.2rem;
+  margin: .5rem 0 ;
+`
