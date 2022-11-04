@@ -4,9 +4,11 @@ Clone da Plataforma da dio com React
 <h2>Bibliotecas utilizadas</h2>
 <li>ReactJS
 <li>Styled-components
+<li>React-hook-form
 <li>React-router-dom
 <li>json-server
 <li>axios
+<li>yup
 
 
   <h3>Instalando pacotes </h3>
