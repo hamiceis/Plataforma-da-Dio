@@ -7,7 +7,7 @@ import {
   MenuRight,
   Row,
   Wrapper,
-  UserPicture
+  UserPicture,
 } from "./styled";
 import { Button } from "../Button";
 import Logo from "../../assets/logo-dio.png";
@@ -18,7 +18,7 @@ export function Header({ authentication }) {
       <Container>
         <Row>
           <Link to="/">
-          <img src={Logo} alt="Logo da Dio" />
+            <img src={Logo} alt="Logo da Dio" />
           </Link>
           {authentication && (
             <>
@@ -37,9 +37,14 @@ export function Header({ authentication }) {
             <UserPicture src="https://avatars.githubusercontent.com/u/92181823?v=4" />
           ) : (
             <>
-              <MenuRight href="#">Home</MenuRight>
-              <Button title="Entrar" />
-              <Button title="Cadastrar" />
+              <MenuRight href="/">Home</MenuRight>
+              <Link to="/login">
+                <Button title="Entrar" />
+              </Link>
+
+              <Link to="/register">
+                <Button title="Cadastrar" />
+              </Link>
             </>
           )}
         </Row>

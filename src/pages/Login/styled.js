@@ -81,6 +81,8 @@ export const CreateAccount = styled.p`
     opacity: .6;
     cursor: pointer;
   }
+  
 `
+
 
 
