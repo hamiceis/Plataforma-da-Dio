@@ -9,6 +9,6 @@ Clone da Plataforma da dio com React
 <li>axios
 
 
-#Instalando pacotes
+  <h3>Instalando pacotes </h3>
 
-$npm install 
+`$ npm install` 
